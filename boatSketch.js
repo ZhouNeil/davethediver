@@ -309,7 +309,7 @@ function setup() {
   // navigate back to home screen
     sessionStorage.setItem("numDives", 0);
     numDives = 0;
-    window.location.href = "start.html";
+    window.location.href = "index.html";
   });
 
   
@@ -716,7 +716,7 @@ function drawGameOverScreen() {
     setTimeout(() => {
       sessionStorage.setItem("numDives", 0);
       sessionStorage.setItem("maintenanceCharged", false);
-      window.location.href = "start.html";
+      window.location.href = "index.html";
     }, 1600);
   }
 }
